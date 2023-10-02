@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(606681.jpg) ;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+   
+}
+.form-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    padding: 50px 60px;
+    width: 90%;
+    max-width: 450px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 200;
+    
+   
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: blue;
+    position: relative;
+}
+.input-feild{
+    background: #eaeaea;
+    margin: 15px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+     max-height: 65px;
+     transition: max-height 0.5s;
+     overflow: hidden;
+}
+input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 18px 15px;
+    background: transparent;
+}
+.input-feild i{
+    margin-left: 15px;
+    color: #999;
+    
+}
+form p{
+    text-align: left;
+    font-size: 13px
+}
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+    
+}
+form p a:hover{
+    color: red;
+}
+.btn-feild{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-feild button{
+    background-color: #3c00a0;
+    color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    flex-basis: 48%;
+    transition: background 1s;
+    
+}
+
+.btn-feild button.disable{
+    background-color: #999;
+    color: #555;
+}
